@@ -1,0 +1,19 @@
+.nothing {
+  background-color: #222;
+  color: #e9e9e9;
+}
+:root {
+  --main-bgcolor: #222;
+  --main-color: #e9e9e9;
+}
+body {
+  background-color: var(--main-bgcolor);
+  color: var(--main-color);
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 2rem;
+}
+h1 {
+  text-align: center;
+  color: rgb(255, 238, 139);
+}
